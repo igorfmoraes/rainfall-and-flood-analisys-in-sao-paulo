@@ -1,0 +1,8 @@
+pandas
+numpy
+openpyxl
+earthengine-api
+geopandas
+shapely
+geobr
+scikit-learn
