@@ -1,3 +1,6 @@
+chirps_anos/
+chirps_rmsp_diario.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
