@@ -60,7 +60,7 @@ def ler_chuva(caminho):
 
 
 def calendario(indice):
-    doy = indice.dayofyear.to_numpy()
+    doy = indice.day_of_year.to_numpy()
     return pd.DataFrame(
         {"mes": indice.month, "doy_sin": np.sin(2 * np.pi * doy / 365.25), "doy_cos": np.cos(2 * np.pi * doy / 365.25)},
         index=indice,

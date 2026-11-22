@@ -1,9 +1,9 @@
-pandas
-numpy
-openpyxl
-earthengine-api
-geopandas
-shapely
-geobr
-scikit-learn
-matplotlib
+pandas==3.1.1
+numpy==2.5.5
+openpyxl==3.1.5
+scikit-learn==1.9.1
+matplotlib==3.11.2
+geopandas==1.2.0
+earthengine-api==1.7.53
+shapely   # installed with geopandas; version not recorded
+# geobr   # optional: only used by 01_extrair_chirps.py when --shapefile is omitted
